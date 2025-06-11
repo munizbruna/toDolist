@@ -59,7 +59,7 @@ h1 {
     color: #6c757d;
 }
 #remove {
-    background-color: #dc3545;
+    background-color: #990918;
     color: white;
     border: none;
     height: 35px;
@@ -69,7 +69,7 @@ h1 {
     font-size: 14px;
 }
 #remove:hover {
-    background-color: #c82333;
+    background-color: #ff0019;
 }
 #conclui {
     background-color: #19580d;
