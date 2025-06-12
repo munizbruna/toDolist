@@ -16,12 +16,12 @@ else {
 //acompanha o evento de clique do botão adicionar tarefa
 btnAdd.addEventListener("click", criaTarefa);
 
-//envio com enter
+//ENVIO COM O ENTER
 tarefa.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') criaTarefa();
   });
   
-
+//
 function criaTarefa() {
     if (tarefa.value==""){
         alert("digite o nome de sua tarefa")
